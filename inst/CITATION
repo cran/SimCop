@@ -1,0 +1,31 @@
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date, perl = TRUE)
+vers <- paste("R package version", meta$Version)
+
+citEntry(entry="Manual",
+         title = "SimCop: Simulate from Arbitrary Copulae",
+         author = personList(as.person("N. Tajvidi"),
+                             as.person("B. A. Turlach")),
+         year = year,
+         note = vers,
+
+         textVersion =
+         paste("Nader Tajvidi and Berwin A Turlach (",
+               year,
+               ").  SimCop: Simulate from Arbitrary Copulae. ",
+               vers, ".", sep=""))
+
+
+citEntry(entry="Article",
+         author = personList(as.person("N. Tajvidi"),
+                             as.person("B. A. Turlach")),
+         title= "A general approach to generate random variates for multivariate copulae",
+         journal = "Australian & New Zealand Journal of Statistics",
+         year    = "2017",
+         note    = "Accepted for publication",
+  
+        textVersion =
+        paste("Tajvidi, N. and Turlach, B.A. (2017).",
+              "A general approach to generate random variates for multivariate copulae,", 
+              "Australian & New Zealand Journal of Statistics.", 
+              "Doi:10.1111/anzs.12209.")
+)
