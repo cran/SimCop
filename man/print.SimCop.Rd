@@ -15,6 +15,6 @@
 Prints basic information on a copula created with the methods in this package.
 }
 \author{
-Berwin A. Turlach <berwin.turlach@gmail.com>
+Berwin A. Turlach \email{berwin.turlach@gmail.com}
 }
 \keyword{print}

@@ -46,23 +46,23 @@ Implements several operations of objects of \code{\link{class}} \sQuote{ADCube}.
 \details{
 Assume \code{u} and \code{w} contain the evaluations of functions \eqn{f()} and \eqn{g()}, together with evaluations of all their cross-derivatives, at points \eqn{x} and \eqn{y}, respectively.
 
-\code{CrossSum} returns the evaluation of \eqn{f()+g()}, together with all evaluated cross-derivates.
+ \code{CrossSum} returns the evaluation of \eqn{f()+g()}, together with all evaluated cross-derivates.
 
-\code{CrossMult} returns the evaluation of \eqn{f()g()}, together with all evaluated cross-derivates.
+ \code{CrossMult} returns the evaluation of \eqn{f()g()}, together with all evaluated cross-derivates.
 
-\code{CrossDivide} returns the evaluation of \eqn{f()/g()}, together with all evaluated cross-derivates.
+ \code{CrossDivide} returns the evaluation of \eqn{f()/g()}, together with all evaluated cross-derivates.
 
-\code{CrossSquare} returns the evaluation of \eqn{(f())^2}, together with all evaluated cross-derivates.
+ \code{CrossSquare} returns the evaluation of \eqn{(f())^2}, together with all evaluated cross-derivates.
 
-\code{CrossExp} returns the evaluation of \eqn{\exp(f())}{exp(f())}, together with all evaluated cross-derivates.
+ \code{CrossExp} returns the evaluation of \eqn{\exp(f())}{exp(f())}, together with all evaluated cross-derivates.
 
-\code{CrossLog} returns the evaluation of \eqn{\log(f())}{log(f())}, together with all evaluated cross-derivates.
+ \code{CrossLog} returns the evaluation of \eqn{\log(f())}{log(f())}, together with all evaluated cross-derivates.
 
-\code{CrossPow} returns the evaluation of \eqn{(f())^r}, together with all evaluated cross-derivates.
+ \code{CrossPow} returns the evaluation of \eqn{(f())^r}, together with all evaluated cross-derivates.
 
-\code{CrossSqrt} returns the evaluation of \eqn{\sqrt{f()}}{sqrt(f())}, together with all evaluated cross-derivates.
+ \code{CrossSqrt} returns the evaluation of \eqn{\sqrt{f()}}{sqrt(f())}, together with all evaluated cross-derivates.
 
-\code{CrossRaisePow} returns the evaluation of \eqn{f()^{g()}}, together with all evaluated cross-derivates.
+ \code{CrossRaisePow} returns the evaluation of \eqn{f()^{g()}}, together with all evaluated cross-derivates.
 }
 \references{
 Griewank, A., Lehmann, L., Leovey, H. and Zilberman, M. (2014). Automatic evaluations of cross-derivatives, \emph{Mathematics of Computation} \strong{83}(285): 251-274.
@@ -71,6 +71,6 @@ Griewank, A., Lehmann, L., Leovey, H. and Zilberman, M. (2014). Automatic evalua
 \code{\link{NewCube}}
 }
 \author{
-Berwin A. Turlach <berwin.turlach@gmail.com>
+Berwin A. Turlach \email{berwin.turlach@gmail.com}
 }
 \keyword{internal}

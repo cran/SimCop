@@ -20,6 +20,6 @@ The following parameterisation of the copula is used:
 \deqn{C(u_1,\dots,u_d) = \left(\left\{ \sum_{j=1}^d u_j^{-\theta} \right\} - (d-1) \right)^{-1/\theta}}{C(u_1,\dots,u_d) = ( { \sum_j u_j^{-theta} } - d + 1)^{-1/theta}}
 }
 \author{
-Berwin A. Turlach <berwin.turlach@gmail.com>
+Berwin A. Turlach \email{berwin.turlach@gmail.com}
 }
 \keyword{distribution}

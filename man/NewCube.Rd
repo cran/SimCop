@@ -33,6 +33,6 @@ Griewank, A., Lehmann, L., Leovey, H. and Zilberman, M. (2014). Automatic evalua
 \code{\link{CrossSum}}
 }
 \author{
-Berwin A. Turlach <berwin.turlach@gmail.com>
+Berwin A. Turlach \email{berwin.turlach@gmail.com}
 }
 \keyword{internal}

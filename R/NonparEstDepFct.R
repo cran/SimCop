@@ -29,13 +29,13 @@
 #'
 #' @seealso \code{\link{SplineFitDepFct}}
 #'
-#' @references Hall, P. and Tajvidi, N. (2000). Distribution and dependence-function estimation for bivariate extreme-value distributions.  \emph{Bernoulli} \bold{6}(5), 835--844. Doi:10.2307/3318758.
+#' @references Hall, P. and Tajvidi, N. (2000). Distribution and dependence-function estimation for bivariate extreme-value distributions.  \emph{Bernoulli} \bold{6}(5): 835--844. \doi{10.2307/3318758}.
 #'
-#' Hall, P. and Tajvidi, N. (2004). Prediction regions for bivariate extreme events. \emph{Australian & New Zealand Journal of Statistics} \bold{46}(1), 99--112. Doi:10.1111/j.1467-842X.2004.00316.x.
+#' Hall, P. and Tajvidi, N. (2004). Prediction regions for bivariate extreme events. \emph{Australian & New Zealand Journal of Statistics} \bold{46}(1): 99--112. \doi{10.1111/j.1467-842X.2004.00316.x}.
 #'
 #' @keywords nonparametric
 #'
-#' @author Nader Tajvidi <Nader.Tajvidi@matstat.lu.se>
+#' @author Nader Tajvidi \email{Nader.Tajvidi@@matstat.lu.se}
 #'
 #' @export
 NonparEstDepFct <- function(x , y = NULL, w.length = 101,

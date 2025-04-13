@@ -27,7 +27,7 @@
 #'
 #' @return An object of \code{\link{class}} \sQuote{ADCube} is returned.  See \sQuote{Details}.
 #'
-#' @author Berwin A. Turlach <berwin.turlach@gmail.com>
+#' @author Berwin A. Turlach \email{berwin.turlach@@gmail.com}
 #'
 #' @references Griewank, A., Lehmann, L., Leovey, H. and Zilberman, M. (2014). Automatic evaluations of cross-derivatives, \emph{Mathematics of Computation} \strong{83}(285): 251-274.
 #'
@@ -46,7 +46,6 @@ CrossSum <- function(u,w){
 }
 
 #' @rdname CrossSum
-#' @inheritParams CrossSum
 CrossMult <- function(u,w){
 
   if(u$dim != w $dim)
@@ -59,7 +58,6 @@ CrossMult <- function(u,w){
 }
 
 #' @rdname CrossSum
-#' @inheritParams CrossSum
 CrossDivide <- function(u,w){
 
   if(u$dim != w $dim)
@@ -72,7 +70,6 @@ CrossDivide <- function(u,w){
 }
 
 #' @rdname CrossSum
-#' @inheritParams CrossSum
 CrossSquare <- function(u){
 
   v <- NewCube(0, dim=u$dim)
@@ -90,7 +87,6 @@ CrossSquare <- function(u){
 }
 
 #' @rdname CrossSum
-#' @inheritParams CrossSum
 CrossExp <- function(u){
 
   v <- NewCube(0, dim=u$dim)
@@ -108,7 +104,6 @@ CrossExp <- function(u){
 }
 
 #' @rdname CrossSum
-#' @inheritParams CrossSum
 CrossLog <- function(u){
 
   v <- NewCube(0, dim=u$dim)
@@ -132,7 +127,6 @@ CrossLog <- function(u){
 }
 
 #' @rdname CrossSum
-#' @inheritParams CrossSum
 #' @param r a positive real number.
 CrossPow <- function(u, r){
 
@@ -160,7 +154,6 @@ CrossPow <- function(u, r){
 }
 
 #' @rdname CrossSum
-#' @inheritParams CrossSum
 CrossSqrt <- function(u){
 
   v <- NewCube(0, dim=u$dim)
@@ -179,7 +172,6 @@ CrossSqrt <- function(u){
 }
 
 #' @rdname CrossSum
-#' @inheritParams CrossSum
 CrossRaisePow <- function(u,w){
 
   if(u$dim != w $dim)

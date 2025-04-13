@@ -5,7 +5,7 @@
 #' @param x an object of \code{\link{class}} \sQuote{SimCop}.
 #' @param \dots not used.
 #'
-#' @author  Berwin A. Turlach <berwin.turlach@gmail.com>
+#' @author  Berwin A. Turlach \email{berwin.turlach@@gmail.com}
 #'
 #' @keywords print
 #'
@@ -22,6 +22,11 @@ print.SimCop <- function(x, ...){
       print(param[[i]])
     }
   }
+    if(exists("pdfCopula", envir = environment(x))){
+      cat("Has a function to evaluate its PDF in its environment\n")
+   }else{
+      cat("Does not have a function to evaluate its PDF in its environment\n")
+   }
   invisible(x)
 }
 

@@ -20,7 +20,7 @@
 #'
 #' @seealso \code{\link{NewBEVLogisticCopula}}, \code{\link{NewMEVAsyLogisticCopula}}
 #'
-#' @author  Berwin A. Turlach <berwin.turlach@gmail.com>
+#' @author  Berwin A. Turlach \email{berwin.turlach@@gmail.com}
 #'
 #' @keywords distribution
 #'

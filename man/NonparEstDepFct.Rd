@@ -4,8 +4,14 @@
 \alias{NonparEstDepFct}
 \title{Nonparametric estimator of bivariate dependence function}
 \usage{
-NonparEstDepFct(x, y = NULL, w.length = 101, transf.to.frechet = TRUE,
-  convex.hull = TRUE, verbose = FALSE)
+NonparEstDepFct(
+  x,
+  y = NULL,
+  w.length = 101,
+  transf.to.frechet = TRUE,
+  convex.hull = TRUE,
+  verbose = FALSE
+)
 }
 \arguments{
 \item{x, y}{vectors giving the observations of the extreme values. Alternatively a single plotting structure can be specified: see \code{\link{xy.coords}}.}
@@ -44,14 +50,14 @@ polygon(c(0, 0.5, 1, 0), c(1, 0.5, 1, 1))
 
 }
 \references{
-Hall, P. and Tajvidi, N. (2000). Distribution and dependence-function estimation for bivariate extreme-value distributions.  \emph{Bernoulli} \bold{6}(5), 835--844. Doi:10.2307/3318758.
+Hall, P. and Tajvidi, N. (2000). Distribution and dependence-function estimation for bivariate extreme-value distributions.  \emph{Bernoulli} \bold{6}(5): 835--844. \doi{10.2307/3318758}.
 
-Hall, P. and Tajvidi, N. (2004). Prediction regions for bivariate extreme events. \emph{Australian & New Zealand Journal of Statistics} \bold{46}(1), 99--112. Doi:10.1111/j.1467-842X.2004.00316.x.
+Hall, P. and Tajvidi, N. (2004). Prediction regions for bivariate extreme events. \emph{Australian & New Zealand Journal of Statistics} \bold{46}(1): 99--112. \doi{10.1111/j.1467-842X.2004.00316.x}.
 }
 \seealso{
 \code{\link{SplineFitDepFct}}
 }
 \author{
-Nader Tajvidi <Nader.Tajvidi@matstat.lu.se>
+Nader Tajvidi \email{Nader.Tajvidi@matstat.lu.se}
 }
 \keyword{nonparametric}

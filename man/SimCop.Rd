@@ -2,8 +2,8 @@
 % Please edit documentation in R/SimCop.R
 \docType{package}
 \name{SimCop}
-\alias{SimCop}
 \alias{SimCop-package}
+\alias{SimCop}
 \title{SimCop: A package to simulate random variates from an arbitrary multivariate copula}
 \description{
 R code to support Tajvidi and Turlach (2017).  The main functions implemented for the SimCop package are:
@@ -22,5 +22,14 @@ R code to support Tajvidi and Turlach (2017).  The main functions implemented fo
 }
 }
 \references{
-Tajvidi, N. and Turlach, B.A. (2017). A general approach to generate random variates for multivariate copulae, \emph{Australian & New Zealand Journal of Statistics}. Doi:10.1111/anzs.12209.
+Tajvidi, N. and Turlach, B.A. (2017). A general approach to generate random variates for multivariate copulae, \emph{Australian & New Zealand Journal of Statistics} \bold{60}(1): 140--155. \doi{10.1111/anzs.12209}.
+}
+\author{
+\strong{Maintainer}: Berwin A. Turlach \email{Berwin.Turlach@gmail.com} (\href{https://orcid.org/0000-0001-8795-471X}{ORCID})
+
+Other contributors:
+\itemize{
+  \item Nader Tajvidi \email{Nader.Tajvidi@matstat.lu.se} (\href{https://orcid.org/0000-0002-7193-5730}{ORCID}) [contributor]
+}
+
 }

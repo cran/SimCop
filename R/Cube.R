@@ -16,7 +16,7 @@
 #'
 #' @return \code{NewCube} returns an object of \code{\link{class}} \sQuote{ADCube} according to its inputs. See \sQuote{Details}.
 #'
-#' @author Berwin A. Turlach <berwin.turlach@gmail.com>
+#' @author Berwin A. Turlach \email{berwin.turlach@@gmail.com}
 #'
 #' @references Griewank, A., Lehmann, L., Leovey, H. and Zilberman, M. (2014). Automatic evaluations of cross-derivatives, \emph{Mathematics of Computation} \strong{83}(285): 251-274.
 #'

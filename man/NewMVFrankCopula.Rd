@@ -7,7 +7,7 @@
 NewMVFrankCopula(alpha = 1)
 }
 \arguments{
-\item{alpha}{real, the parameter of the Frank copula, defaults to 2; must be positive.}
+\item{alpha}{real, the parameter of the Frank copula, defaults to 1; must be positive.}
 }
 \value{
 A function that evaluates the Frank copula (with parameter \eqn{\alpha}{alpha}) at a given \eqn{d}-dimensional vector in the unit cube.  The environment of the function also contains a function called \code{pdfCopula} that evaluates the probability density function of the Frank copula via automatic differentation.
@@ -21,6 +21,6 @@ The following parameterisation of the copula is used:
 where \eqn{s = \sum_{j=1}^d \log\left(\frac{\exp(-\alpha u_j) -1 }{t}\right)}{s = \sum_j log( (exp(-alpha u_j) -1) / t )} and \eqn{t=\exp(-\alpha)-1}{t = exp(-alpha) - 1}.
 }
 \author{
-Berwin A. Turlach <berwin.turlach@gmail.com>
+Berwin A. Turlach \email{berwin.turlach@gmail.com}
 }
 \keyword{distribution}

@@ -24,6 +24,6 @@ where \eqn{\bar u_j = -\log(u_j)}{v_j = -log(u_j)}, \eqn{j=1,\dots,d}.
 \code{\link{NewMEVAsyLogisticCopula}}
 }
 \author{
-Berwin A. Turlach <berwin.turlach@gmail.com>
+Berwin A. Turlach \email{berwin.turlach@gmail.com}
 }
 \keyword{distribution}

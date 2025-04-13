@@ -19,6 +19,6 @@ Creates a bivariate extreme value copula from a spline estimate of its dependenc
 \code{\link{SplineFitDepFct}}
 }
 \author{
-Berwin A. Turlach <berwin.turlach@gmail.com>
+Berwin A. Turlach \email{berwin.turlach@gmail.com}
 }
 \keyword{distribution}

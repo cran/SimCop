@@ -33,6 +33,6 @@ For \eqn{\theta = \phi = 1} this model reduces to the symmetric logistic model.
 \code{\link{NewBEVLogisticCopula}}, \code{\link{NewMEVAsyLogisticCopula}}
 }
 \author{
-Berwin A. Turlach <berwin.turlach@gmail.com>
+Berwin A. Turlach \email{berwin.turlach@gmail.com}
 }
 \keyword{distribution}

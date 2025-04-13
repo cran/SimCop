@@ -4,8 +4,16 @@
 \alias{GenerateRV.CopApprox}
 \title{Generates random variates from a copula approximation}
 \usage{
-\method{GenerateRV}{CopApprox}(obj, n, MH = FALSE, trace = FALSE,
-  PDF = NULL, burnin = 500, thinning = 5, ...)
+\method{GenerateRV}{CopApprox}(
+  obj,
+  n,
+  MH = FALSE,
+  trace = FALSE,
+  PDF = NULL,
+  burnin = 500,
+  thinning = 5,
+  ...
+)
 }
 \arguments{
 \item{obj}{object from which to sample.}
@@ -52,7 +60,7 @@ plot(sample2)
 
 }
 \references{
-Tajvidi, N. and Turlach, B.A. (2017). A general approach to generate random variates for multivariate copulae, \emph{Australian & New Zealand Journal of Statistics}. Doi:10.1111/anzs.12209.
+Tajvidi, N. and Turlach, B.A. (2017). A general approach to generate random variates for multivariate copulae, \emph{Australian & New Zealand Journal of Statistics} \bold{60}(1): 140--155. \doi{10.1111/anzs.12209}.
 }
 \seealso{
 \code{\link{GetApprox}}

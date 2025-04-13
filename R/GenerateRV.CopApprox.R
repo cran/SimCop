@@ -20,7 +20,7 @@
 #'
 #' @seealso \code{\link{GetApprox}}
 #'
-#' @references Tajvidi, N. and Turlach, B.A. (2017). A general approach to generate random variates for multivariate copulae, \emph{Australian & New Zealand Journal of Statistics}. Doi:10.1111/anzs.12209.
+#' @references Tajvidi, N. and Turlach, B.A. (2017). A general approach to generate random variates for multivariate copulae, \emph{Australian & New Zealand Journal of Statistics} \bold{60}(1): 140--155. \doi{10.1111/anzs.12209}.
 #'
 #' @examples
 #' cop <- NewBEVAsyMixedModelCopula(theta=1, phi=-0.25)

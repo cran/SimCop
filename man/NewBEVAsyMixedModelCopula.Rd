@@ -32,6 +32,6 @@ If \eqn{\phi = 0} we obtain the symmetric mixed model.
 \code{\link{NewBEVMixedModelCopula}}
 }
 \author{
-Berwin A. Turlach <berwin.turlach@gmail.com>
+Berwin A. Turlach \email{berwin.turlach@gmail.com}
 }
 \keyword{distribution}

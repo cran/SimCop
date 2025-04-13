@@ -4,8 +4,13 @@
 \alias{GetApprox}
 \title{Approximate a copula by a histogram density}
 \usage{
-GetApprox(Cop, dim = 2, depth = ifelse(type == 1, 10, 32), type = 1,
-  TOL = 1000 * .Machine$double.eps)
+GetApprox(
+  Cop,
+  dim = 2,
+  depth = ifelse(type == 1, 10, 32),
+  type = 1,
+  TOL = 1000 * .Machine$double.eps
+)
 }
 \arguments{
 \item{Cop}{A function defining the copula.}
@@ -40,11 +45,11 @@ plot(CopApprox)
 
 }
 \references{
-Tajvidi, N. and Turlach, B.A. (2017). A general approach to generate random variates for multivariate copulae, \emph{Australian & New Zealand Journal of Statistics}. Doi:10.1111/anzs.12209.
+Tajvidi, N. and Turlach, B.A. (2017). A general approach to generate random variates for multivariate copulae, \emph{Australian & New Zealand Journal of Statistics} \bold{60}(1): 140--155. \doi{10.1111/anzs.12209}.
 }
 \seealso{
 \code{\link{plot.CopApprox}}
 }
 \author{
-Berwin A. Turlach <berwin.turlach@gmail.com>
+Berwin A. Turlach \email{berwin.turlach@gmail.com}
 }

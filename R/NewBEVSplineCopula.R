@@ -6,7 +6,7 @@
 #'
 #' @return A function that evaluates the bivariate EV copula (whose dependence function is given by the spline) at a given \eqn{2}-dimensional vector in the unit square.  The environment of the function also contains a function called \code{pdfCopula} that evaluates the probability density function of the bivariate asymmetric mixed model EV copula via automatic differentation.
 #'
-#' @author  Berwin A. Turlach <berwin.turlach@gmail.com>
+#' @author  Berwin A. Turlach \email{berwin.turlach@@gmail.com}
 #'
 #' @seealso \code{\link{SplineFitDepFct}}
 #'

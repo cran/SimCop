@@ -26,6 +26,6 @@ Necessary and sufficient conditions for the dependence function to be valid are
 \code{\link{NewBEVAsyLogisticCopula}}, \code{\link{NewMEVGumbelCopula}}
 }
 \author{
-Berwin A. Turlach <berwin.turlach@gmail.com>
+Berwin A. Turlach \email{berwin.turlach@gmail.com}
 }
 \keyword{distribution}

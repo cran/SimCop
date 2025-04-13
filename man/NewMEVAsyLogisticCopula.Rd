@@ -50,6 +50,6 @@ cop2 <- NewMEVAsyLogisticCopula(theta, r)
 \code{\link{NewBEVAsyLogisticCopula}}, \code{\link{NewMEVGumbelCopula}}
 }
 \author{
-Berwin A. Turlach <berwin.turlach@gmail.com>
+Berwin A. Turlach \email{berwin.turlach@gmail.com}
 }
 \keyword{distribution}

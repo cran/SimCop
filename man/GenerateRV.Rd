@@ -17,6 +17,6 @@ GenerateRV(obj, n, ...)
 A generic to sample random variates from an object.
 }
 \author{
-Berwin A. Turlach <berwin.turlach@gmail.com>
+Berwin A. Turlach \email{berwin.turlach@gmail.com}
 }
 \keyword{distribution}

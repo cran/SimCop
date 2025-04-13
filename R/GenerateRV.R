@@ -6,7 +6,7 @@
 #' @param n   number of items to sample.
 #' @param \dots further arguments for methods.
 #'
-#' @author  Berwin A. Turlach <berwin.turlach@gmail.com>
+#' @author  Berwin A. Turlach \email{berwin.turlach@@gmail.com}
 #'
 #' @keywords distribution
 #'

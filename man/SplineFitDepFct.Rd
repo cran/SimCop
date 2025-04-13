@@ -20,7 +20,7 @@ A function, created by \code{\link{splinefun}}, that evaluates the natural cubic
 Given estimates for the dependence function of a bivariate extreme value copula at specified points, this function fits a natural cubic smoothing spline, that is constrained to fulfill all the conditions of a dependence function, to the given estimates via quadratic programming.
 }
 \details{
-\code{integ.value} should be between 0 and 2.  If a value is specified, then an additional constraint is added to the quadratic program to ensure that the integeral (over 0 to 1) of the second derivative of the spline is larger or equal to \code{integ.value}.  Choosing values close to 2 may lead to quadratic programms on which \code{\link{solve.QP}} reports inconsistent constraints.
+\code{integ.value} should be between 0 and 2.  If a value is specified, then an additional constraint is added to the quadratic program to ensure that the integeral (over 0 to 1) of the second derivative of the spline is larger or equal to \code{integ.value}.  Choosing values close to 2 may lead to quadratic programms on which \code{\link[quadprog]{solve.QP}} reports inconsistent constraints.
 }
 \examples{
 ## Data from Hall and Tajvidi (2004, ANZJS)
@@ -37,16 +37,16 @@ curve(splfit, n = 301, add = TRUE, lty = "dashed")
 
 }
 \references{
-Hall, P. and Tajvidi, N. (2000). Distribution and dependence-function estimation for bivariate extreme-value distributions.  \emph{Bernoulli} \bold{6}(5), 835--844. Doi:10.2307/3318758.
+Hall, P. and Tajvidi, N. (2000). Distribution and dependence-function estimation for bivariate extreme-value distributions.  \emph{Bernoulli} \bold{6}(5): 835--844. \doi{10.2307/3318758}.
 
-Hall, P. and Tajvidi, N. (2004). Prediction regions for bivariate extreme events. \emph{Australian & New Zealand Journal of Statistics} \bold{46}(1), 99--112. Doi:10.1111/j.1467-842X.2004.00316.x.
+Hall, P. and Tajvidi, N. (2004). Prediction regions for bivariate extreme events. \emph{Australian & New Zealand Journal of Statistics} \bold{46}(1): 99--112. \doi{10.1111/j.1467-842X.2004.00316.x}.
 }
 \seealso{
 \code{\link{NonparEstDepFct}}, \code{\link{NewBEVSplineCopula}}
 }
 \author{
-Nader Tajvidi <Nader.Tajvidi@matstat.lu.se>
+Nader Tajvidi \email{Nader.Tajvidi@matstat.lu.se}
 
-Berwin A Turlach <Berwin.Turlach@gmail.com>
+Berwin A Turlach \email{Berwin.Turlach@gmail.com}
 }
 \keyword{smooth}
